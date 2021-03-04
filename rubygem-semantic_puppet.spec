@@ -3,7 +3,7 @@
 
 Name: rubygem-%{gem_name}
 Version: 1.0.2
-Release: 1%{?dist}
+Release: 2%{?dist}
 Summary: Useful tools for working with Semantic Versions
 License: ASL 2.0
 URL: https://github.com/puppetlabs/semantic_puppet
@@ -66,5 +66,8 @@ popd
 %{gem_instdir}/spec
 
 %changelog
+* Thu Mar 4 2021 Alfredo Moralejo <amoralej@redhat.com> - 1.0.2-2
+- Rebuild in RDO for CentOS8.
+
 * Mon May 4 2020 Breno Brand Fernandes <brandfbb@gmail.com> - 1.0.2-1
 - First build
